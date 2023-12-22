@@ -24,11 +24,24 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          
         </Head>
         <body>
           <Main />
           <NextScript />
+
+          {/* Your additional text content */}
+          <div>
+            <h1>YouTube Thumbnail Downloader</h1>
+            <p>▷ Save YT Video Thumbnails</p>
+
+            <p>
+              Get free thumbnail image of any youtube videos in Full HD(1080),
+              HD (720), SD, and also in small size. It's currently supported
+              formats: YouTube (HD, HQ, 1080p, 4K) videos
+            </p>
+
+            {/* Add more content as needed */}
+          </div>
         </body>
       </Html>
     );
