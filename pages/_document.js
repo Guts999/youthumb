@@ -26,6 +26,20 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <style>
+            {`
+              body {
+                text-align: center;
+                height: 100vh;
+                margin: 0;
+              }
+
+              div {
+                max-width: 600px;
+                margin: 0 auto; /* Center the div itself */
+              }
+            `}
+          </style>
         </Head>
         <body>
           <Main />
@@ -35,6 +49,9 @@ class MyDocument extends Document {
           <div>
             <h1>YouTube Thumbnail Downloader</h1>
             <p><strong>How to Download YouTube Thumbnail in a Few Seconds</strong></p>
+            <p>
+              <strong>A free tool for instantly grabbing and downloading any YouTube thumbnail.</strong>
+            </p>
             <p>
               <strong>Add YouTube Video URL</strong><br />
               Just add the YouTube video URL in the corresponding field.
