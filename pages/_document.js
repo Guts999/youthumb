@@ -7,6 +7,19 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+
+         {/* Google Analytics script */}
+          {/* Google tag (gtag.js) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-23XRVGGWSN"></script>
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-23XRVGGWSN');
+            `,
+          }} />
+
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -26,17 +39,6 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-         {/* Google Analytics script */}
-          <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-23XRVGGWSN"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-23XRVGGWSN');
-        </script>
-
           <style>
             {`
               body {
