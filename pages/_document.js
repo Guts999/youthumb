@@ -8,6 +8,17 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
 
+          {/*7searchppc ad code*/}
+
+          <div id="7SAD156599FC152D800" data-7pub="7SAD156599FC152D800"></div>
+                    <script src="https://code.adclickppc.com/7s-banner-ad.js"></script>
+                    <script>
+                    (function() {
+                      initBannerAd(['7SAD156599FC152D800', 'banner'])
+                      }())
+                    </script>
+                    
+
          {/* Google Analytics script */}
           {/* Google tag (gtag.js) */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-23XRVGGWSN"></script>
@@ -113,17 +124,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               That’s it. You have the video thumbnail and can use it anywhere. However, some images may be subject to copyright, so make sure to get this aspect sorted before using the image publicly. You might need to ask for the author’s permission, provide an attribution, and so on. Enjoy!
             </p>
           </div>
-
-{/*7searchppc ad code*/}
-
-          <div id="7SAD156599FC152D800" data-7pub="7SAD156599FC152D800"></div>
-                    <script src="https://code.adclickppc.com/7s-banner-ad.js"></script>
-                    <script>
-                    (function() {
-                      initBannerAd(['7SAD156599FC152D800', 'banner'])
-                      }())
-                    </script>
-
         </body>
       </Html>
     );
