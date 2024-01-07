@@ -8,8 +8,11 @@ function MyApp({ Component, pageProps }) {
     // Check if initBannerAd is defined to avoid potential errors
     if (typeof initBannerAd === 'function') {
       initBannerAd(['7SAD156599FC152D800', 'banner']);
+    } else {
+      console.error("initBannerAd is not defined. Ad functionality might not work.");
+      // You can provide a fallback behavior or display a message to the user
     }
-  }, []);
+  }, []);  
 
   return (
     <Fragment>
