@@ -1,8 +1,16 @@
 import "../styles/index.css";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { DefaultSeo } from "next-seo";
 
 function MyApp({ Component, pageProps }) {
+  // Add the ad code using useEffect to ensure it runs on the client side
+  useEffect(() => {
+    // Check if initBannerAd is defined to avoid potential errors
+    if (typeof initBannerAd === 'function') {
+      initBannerAd(['7SAD156599FC152D800', 'banner']);
+    }
+  }, []);
+
   return (
     <Fragment>
       <DefaultSeo
@@ -16,6 +24,20 @@ function MyApp({ Component, pageProps }) {
           site_name: "Youtube Thumbnail Downloader",
         }}
       />
+
+      {/* 7searchppc ad code */}
+      <div id="7SAD156599FC152D800" data-7pub="7SAD156599FC152D800"></div>
+      <script src="https://code.adclickppc.com/7s-banner-ad.js"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              initBannerAd(['7SAD156599FC152D800', 'banner'])
+            }())
+          `,
+        }}
+      />
+
       <Component {...pageProps} />
     </Fragment>
   );
