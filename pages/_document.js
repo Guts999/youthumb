@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          
           <style>
             {`
               body {
@@ -86,7 +86,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {/* Your additional text content */}
           <div>
             <h1>YouTube Thumbnail Downloader</h1>
-            <p><strong>How to Download YouTube Thumbnail in a Few Seconds</strong></p>
+            <p><strong><h2>How to Download YouTube Thumbnail in a Few Seconds</h2></strong></p>
             <p>
               <strong>A free tool for instantly grabbing and downloading any YouTube thumbnail.</strong>
             </p>
@@ -113,6 +113,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               That’s it. You have the video thumbnail and can use it anywhere. However, some images may be subject to copyright, so make sure to get this aspect sorted before using the image publicly. You might need to ask for the author’s permission, provide an attribution, and so on. Enjoy!
             </p>
           </div>
+
+{/*7searchppc ad code*/}
+
+          <div id="7SAD156599FC152D800" data-7pub="7SAD156599FC152D800"></div>
+                    <script src="https://code.adclickppc.com/7s-banner-ad.js"></script>
+                    <script>
+                    (function() {
+                      initBannerAd(['7SAD156599FC152D800', 'banner'])
+                      }())
+                    </script>
+
         </body>
       </Html>
     );
