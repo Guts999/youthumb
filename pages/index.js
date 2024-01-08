@@ -42,6 +42,21 @@ const Index = () => {
         <p className="text-gray-600">
           Download high-quality thumbnails from YouTube videos.
         </p>
+
+
+        {/* Ad code */}
+      <div id="7SAD15659B459AC6F65" data-7pub="7SAD15659B459AC6F65"></div>
+      <script src="https://code.adclickppc.com/7s-text-ad.js"></script>
+      <script>
+        {`
+          (function() {
+            initTextAd(['7SAD15659B459AC6F65', 'text'])
+          }())
+        `}
+      </script>
+
+
+
       </header>
       <div className="text-center">
         <input
