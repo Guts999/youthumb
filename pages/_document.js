@@ -64,6 +64,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               }
             `}
           </style>
+
+          <div id="7SAD156599FC152D800" data-7pub="7SAD156599FC152D800"></div>
+                    <script src="https://code.adclickppc.com/7s-banner-ad.js"></script>
+                    <script>
+                    (function() {
+                      initBannerAd(['7SAD156599FC152D800', 'banner'])
+                      }())
+                    </script>
+                    
         </Head>
         <body>
 
