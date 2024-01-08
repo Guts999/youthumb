@@ -44,16 +44,19 @@ const Index = () => {
         </p>
 
 
+
         {/* Ad code */}
-      <div id="7SAD15659B459AC6F65" data-7pub="7SAD15659B459AC6F65"></div>
-      <script src="https://code.adclickppc.com/7s-text-ad.js"></script>
-      <script>
-        {`
-          (function() {
-            initTextAd(['7SAD15659B459AC6F65', 'text'])
-          }())
-        `}
-      </script>
+        {/*/ <!-- Include the script for initTextAd --> */}
+<script src="https://code.adclickppc.com/7s-text-ad.js"></script>
+
+<div id="7SAD15659B459AC6F65" data-7pub="7SAD15659B459AC6F65"></div>
+<script>
+  (function() {
+    // Call initTextAd after it's loaded
+    initTextAd(['7SAD15659B459AC6F65', 'text'])
+  }());
+</script>
+
 
 
 
