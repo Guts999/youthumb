@@ -48,7 +48,7 @@ const Index = () => {
         <input
           type="text"
           className="w-full md:w-1/2 px-4 py-2 border rounded"
-          placeholder="Enter YouTiiube URL"
+          placeholder="Enter YouTiOOOOOOOOOO9999999ube URL"
           value={videoURL}
           onChange={(e) => setVideoURL(e.target.value)}
         />
