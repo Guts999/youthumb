@@ -40,7 +40,7 @@ const Index = () => {
           Youtube Thumbnail Downloader
         </h1>
         <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.Just paste the UjjkRL of the thumbnail video in the below input and click Download Thumbnails.
+          Download high-quality thumbnails from YouTube videos.Just paste the URL of the thumbnail video in the below input and click Download Thumbnails.
         </p>
 
       </header>
@@ -48,7 +48,7 @@ const Index = () => {
         <input
           type="text"
           className="w-full md:w-1/2 px-4 py-2 border rounded"
-          placeholder="Enter YouTube URL"
+          placeholder="Enter YouTiiube URL"
           value={videoURL}
           onChange={(e) => setVideoURL(e.target.value)}
         />
