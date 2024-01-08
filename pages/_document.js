@@ -91,15 +91,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <strong>A free tool for instantly grabbing and downloading any YouTube thumbnail.</strong>
             </p>
             <p>
-              <strong>Add YouTube Video URL</strong><br />
+              <strong>1.Add YouTube Video URL</strong><br />
               Just add the YouTube video URL in the corresponding field.
             </p>
             <p>
-              <strong>Auto-Generate</strong><br />
+              <strong>2.Auto-Generate</strong><br />
               The YouTube video thumbnail will be generated automatically as soon as you add the URL.
             </p>
             <p>
-              <strong>Download</strong><br />
+              <strong>3.Download</strong><br />
               Hit the Download button to store the YouTube thumbnail image on your device in .JPG format.
             </p>
             <p>
