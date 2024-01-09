@@ -66,8 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </style>            
 
           {/*<!-- Ad code adoperator dot com-->*/}
-          https://wwp.antskre.com/redirect-zone/07c0b652
-
+          <script data-cfasync='false' src='//wwr.antskre.com/?tag=feec9a2c'></script>
 
         </Head>
         <body>
