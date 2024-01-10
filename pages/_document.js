@@ -8,7 +8,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
 
-        <meta name="clckd" content="d0493fa5d67d0871a5924728cb60320f" /> {/* CLICKADU Ad Network website verification*/}
+          {/* CLICKADU Ad Network website verification*/}
+        <meta name="clckd" content="d0493fa5d67d0871a5924728cb60320f" /> 
                      
          {/* Google Analytics script */}
           {/* Google tag (gtag.js) */}
