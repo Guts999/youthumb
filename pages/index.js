@@ -48,7 +48,7 @@ const Index = () => {
         <input
           type="text"
           className="w-full md:w-1/2 px-4 py-2 border rounded"
-          placeholder="Paste YouTube URL here.. e.g. https://www.youtube.com/watch?v=_4WnyS8pU5k"
+          placeholder="Paste YouTube URL here..."
           value={videoURL}
           onChange={(e) => setVideoURL(e.target.value)}
         />
