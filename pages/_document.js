@@ -92,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
           {/* Your additional text content */}
           <div>
-            <h1>YouTube Thumbnail Downloader</h1>
+            <h1>Youtube Thumbnail Downloader</h1>
             <p><strong><h2>How to Download YouTube Thumbnail in a Few Seconds</h2></strong></p>
             <p>
               <strong>A free tool for instantly grabbing and downloading any YouTube thumbnail.</strong>

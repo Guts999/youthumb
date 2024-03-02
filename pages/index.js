@@ -65,13 +65,9 @@ const Index = () => {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
+                <a href={option.url} target="_blank" rel="noopener noreferrer"
                 <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                <button
-                  className="btn-blue mt-2"
-                  onClick={() => copy(option.url)}
-                >
-                  Copy Image URL
-                </button>
+                </a>
               </div>
             ))}
           </div>
