@@ -63,13 +63,14 @@ const Index = () => {
         <div className="mt-8">
           <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {thumbnailOptions.map((option, index) => (
-              <div key={index} className="thumbnail-option">
-                <a href={option.url} target="_blank" rel="noopener noreferrer"
-                <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                </a>
-              </div>
-            ))}
+          {thumbnailOptions.map((option, index) => (
+  <div key={index} className="thumbnail-option">
+    <a href={option.url} target="_blank" rel="noopener noreferrer">
+      <img src={option.url} alt={`Thumbnail ${index + 1}`} />
+    </a>
+  </div>
+))}
+
           </div>
         </div>
       )}
