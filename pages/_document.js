@@ -107,7 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </p>
             <p>
               <strong>3.Download</strong><br />
-              Hit the Download button to store the YouTube thumbnail image on your device in .JPG format.
+              Simply click on the thumbnail image to store it on your device in .JPG format.
             </p>
             <p>
               <strong>About YouTube Thumbnail Downloader</strong><br />
