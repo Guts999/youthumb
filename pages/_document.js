@@ -68,8 +68,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             `}
           </style>            
 
-          {/*<!-- Ad code adoperator dot com-->*/}
-          <script data-cfasync='false' src='//wwr.antskre.com/?tag=feec9a2c'></script>
+          {/*<!-- Ad code adoperator dot com I deleted it because it conains ADULT ads-->*/}
+          
 
         </Head>
         <body>
